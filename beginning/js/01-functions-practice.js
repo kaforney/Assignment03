@@ -6,14 +6,18 @@ function halfNumber(wholeNumber) {
     window.console.log("Half of " + wholeNumber + " is " + (wholeNumber / 2) + ".");  
 }
 halfNumber(12);
+*/
 
+/*
 //STEP 2
 
 function squareNumber(oneNumber) {
     window.console.log("The result of squaring the number " + oneNumber + " is " + Math.pow(oneNumber, oneNumber) + ".");
 }
 squareNumber(4);
+*/
 
+/*
 //STEP 3
 function percentOf(firstNumber, secondNumber) {
     var perCent = Number(firstNumber / secondNumber) * 100;
@@ -28,19 +32,23 @@ function findModulus(numberOne, numberTwo) {
 }
 findModulus(12, 5);
 */
-//STEP 5
-function calculate(numbers) {
-    window.prompt("Input a number.");
-    window.prompt("Input another number.");
-    window.prompt("Input another number.");
-    window.prompt("Input another number.");
-    document.write("You ")
+
 /*
-    var base = document.prompt
-    for (var i = 1; i < arguments.length; i++) {
-        base += Number(arguments[i]);
-    }
-    window.console.log(base);
+//STEP 5
+function sumOfNumbers() {
+    let numbers = [];
+    for (i = 0; i <= 5; i += 1) {
+    let value = window.prompt("Enter a number.", 0);
+    numbers.push(+value);
+        } 
+    
+    let sum = 0;
+    for (let number of numbers) {
+    sum += number;
 }
-calculate()
+    return sum;
+    }
+
+alert("The sum of your array of numbers is: " + sumOfNumbers() + ".");
+
 */
